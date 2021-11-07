@@ -1,0 +1,26 @@
+{
+  "name": "change-pkg-version",
+  "version": "0.0.2",
+  "description": "Change package.json version",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "cpv": "./cli.sh",
+    "change-pkg-version": "./cli.sh"
+  },
+  "files": [
+    "cli.sh"
+  ],
+  "repository": "abranhe/change-pkg-version",
+  "author": {
+    "name": "Abraham Hernandez",
+    "email": "abraham@abranhe.com",
+    "url": "https://abranhe.com"
+  },
+  "keywords": [
+    "package.json",
+    "util",
+    "cli",
+    "version"
+  ]
+}
